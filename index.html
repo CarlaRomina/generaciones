@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercitación de javascript">
+    <meta name="Author" content="Carla Baez">
+    <meta name="Keywords" content="Javascript, ejercitación,aprendizaje, tp BOM DOM">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ejercicios JS generaciones</title>
+</head>
+<body>
+    <div>
+        <h1 class="tit">¿A que generación pertenezco?</h1>
+        
+    </div>
+    <div class="form-contacto">
+        <form action="" id="formulario" onsubmit=" return validar();">
+            <label for="nya" class="encabezado-formulario">Nombre y Apellido</label>
+            <input type="text" name="nya" id="nya" class="inputPadron">
+
+            <label for="edad" class="encabezado-formulario">Edad</label>
+            <input type="text" name="edad" id="edad" class="inputPadron" placeholder="Ingrese la edad">
+
+            <label for="dni" class="encabezado-formulario">DNI</label>
+            <input type="number" name="dni" id="dni" class="inputPadron" placeholder="33258701">
+            <label for="año" class="encabezado-formulario">Año de nacimiento</label>
+            <input type="number" name="año" id="año" class="inputPadron" placeholder="">
+    
+
+            <fieldset class="fieldset">
+                <legend class="encabezado-formulario"> Sexo</legend>
+                <select>
+
+                    <option value="Mujer">Mujer</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Otro">Otro</option>
+                    <option value="PND">Prefiero no decirlo</option>
+                </select>
+
+            </fieldset>
+
+        <input type="submit" id="b1" value="Enviar formulario" class="btnEnviar">
+        </form>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="button">Mostrar generación</button>
+            <button class="btn btn-primary" type="button">¿Es mayor de edad?</button>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/ejercicio1.js"></script>
+</body>
+</html>

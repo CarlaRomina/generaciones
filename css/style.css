@@ -1,0 +1,55 @@
+body{
+    background-image: url(../img/fondoGeneraciones.jpg);
+    background-size: 50%;
+    
+}
+
+.tit{
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+.form-contacto {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.fieldset {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 15px;
+
+
+
+}
+.inputPadron {
+    display: block;
+    margin: 0 0 15px;
+    padding: 10px 25px;
+    
+}
+
+.btnEnviar {
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background: violet;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
+
+.btnEnviar:hover {
+    background: darkviolet;
+    transform: scale(1.1);
+}
